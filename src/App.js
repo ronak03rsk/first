@@ -34,6 +34,7 @@ import About from './About';
 import Projects from './Projects';
 import Skills from './Skills';
 import Contact from './Contact';
+import Footer from './Footer';  
 import './App.css';
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Skills />
         <Contact />
       </main>
+      <Footer />
     </div>
   );
 }
