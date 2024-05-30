@@ -3,8 +3,8 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section id="about">
-            <h2>About Me</h2>
+        <section className='m 2 p 4 '>
+            <h2 className="text-base md:text-lg lg:text-xl">About Me</h2>
             <h3>Ronak Katariya</h3>
             <p>I am Ronak Katariya, an enthusiastic person who is eager to learn and evolve. I am a 
                 confident person, good in communication. I like browsing about the recent trends in the 
