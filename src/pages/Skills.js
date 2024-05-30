@@ -3,8 +3,8 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <section id="skills">
-            <h2>Skills</h2>
+        <section >
+            <h2 className='text-base md:text-lg lg:text-xl font-bold'>Skills</h2>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
