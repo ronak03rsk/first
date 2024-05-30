@@ -3,13 +3,13 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <header>
+        <header class="bg-gray-800 text-white p-4">
             <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul className="list-none">
+                    <li className="inline-block mr-4"><a href="#about" className="text-white no-underline hover:text-yellow-400">About</a></li>
+                    <li className="inline-block mr-4"><a href="#projects" className="text-white no-underline hover:text-yellow-400">Projects</a></li>
+                    <li className="inline-block mr-4"><a href="#skills" className="text-white no-underline hover:text-yellow-400">Skills</a></li>
+                    <li className="inline-block mr-4"><a href="#contact" className="text-white no-underline hover:text-yellow-400">Contact</a></li>
                 </ul>
             </nav>
         </header>
