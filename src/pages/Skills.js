@@ -3,7 +3,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <section >
+        <section id='skills'>
             <h2 className='text-base md:text-lg lg:text-xl font-bold'>Skills</h2>
             <ul>
                 <li>HTML</li>
