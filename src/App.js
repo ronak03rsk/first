@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
-import Contact from './pages/Contact';
+import Connect from './pages/Connect';
 import Footer from './pages/Footer';  
 import './App.css';
 
@@ -18,7 +18,7 @@ function App() {
         <About />
         <Projects />
         <Skills />
-        <Contact />
+        <Connect />
       </main>
       <Footer />
     </div>
